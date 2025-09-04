@@ -82,6 +82,7 @@ Semantic HTML is no longer optional—it’s the foundation for modern, inclusiv
 ---
 
 6. Specific HTML tags to know
+
 | Tag           | Description                                      |
 |---------------|--------------------------------------------------|
 | `<a>`         | Defines a hyperlink                              |
@@ -119,7 +120,6 @@ Semantic HTML is no longer optional—it’s the foundation for modern, inclusiv
 | `<cite>`      | Represents the title of a work                   |
 | `<abbr>`      | Represents an abbreviation or acronym            |
 | `<time>`      | Represents a specific time or date               |
-|---------------|--------------------------------------------------|
 
 ## 6.1 Usage Tips for Common Tags as a, img, figure, figcaption and iframe
 - Always use the `alt` attribute with `<img>` to provide descriptive text for screen readers and when images fail to load.
