@@ -23,6 +23,7 @@ not generic `<div>`s. This improves **accessibility**, **SEO**, and maintainabil
   </body>
   </html>
 ```
+
 - Use `<h1>`-`<h6>` for headings, `<p>` for paragraphs, `<a>` for links, `<ul>`/`<ol>` for lists, and `<img>` for images with `alt` text.
   - Headings should be nested properly (e.g., `<h2>` under `<h1>`, etc.) to reflect document structure.
   - Usage of `<div>` and `<span>` should be limited to cases where no semantic element fits.
