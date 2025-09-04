@@ -7,22 +7,41 @@ establishes how your document is organized.
 - Use appropriate semantic elements (`<header>`, `<nav>`, `<main>`, `<article>`, `<section>`, `<footer>`), 
 not generic `<div>`s. This improves **accessibility**, **SEO**, and maintainability.
 - Example of minimal semantic page:
-  ```html
-  <!doctype html>
-  <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width,initial-scale=1" />
-    <title>My Page</title>
-  </head>
-  <body>
-    <header><h1>Site Title</h1></header>
-    <nav aria-label="Primary">…</nav>
-    <main>…</main>
-    <footer>…</footer>
-  </body>
-  </html>
-```
+```html
+<!DOCTYPE html> 
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>My Semantic Page</title>
+</head>
+<body>
+    <header>
+        <h1>Welcome to My Website</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <article>
+            <h2>Article Title</h2>
+            <p>This is a paragraph in the article.</p>
+        </article>
+        <section>
+            <h2>Section Title</h2>
+            <p>This is a paragraph in the section.</p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 My Website</p>
+    </footer>
+</body>
+</html>
+``` 
 - Use `<h1>`-`<h6>` for headings, `<p>` for paragraphs, `<a>` for links, `<ul>`/`<ol>` for lists, and `<img>` for images with `alt` text.
   - Headings should be nested properly (e.g., `<h2>` under `<h1>`, etc.) to reflect document structure.
   - Usage of `<div>` and `<span>` should be limited to cases where no semantic element fits.
