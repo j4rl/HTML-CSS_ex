@@ -77,6 +77,7 @@ Semantic HTML is no longer optional—it’s the foundation for modern, inclusiv
   </footer>
 </body>
 </html>
+```
 
 ---
 
