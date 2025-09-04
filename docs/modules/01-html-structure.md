@@ -84,10 +84,10 @@ Semantic HTML is no longer optional—it’s the foundation for modern, inclusiv
 6. Specific HTML tags to know
 | Tag           | Description                                      |
 |---------------|--------------------------------------------------|
-| `<a>`         | Defines a hyperlink                               |
+| `<a>`         | Defines a hyperlink                              |
 | `<img>`       | Embeds an image                                  |
-| `<p>`         | Represents a paragraph                            |
-| `<ul>`, `<ol>`| Unordered and ordered lists                       |
+| `<p>`         | Represents a paragraph                           |
+| `<ul>`, `<ol>`| Unordered and ordered lists                      |
 | `<li>`        | List item                                        |
 | `<h1>`-`<h6>` | Headings, with `<h1>` as the highest level       |
 | `<div>`       | Generic container for flow content               |  
@@ -101,23 +101,24 @@ Semantic HTML is no longer optional—it’s the foundation for modern, inclusiv
 | `<script>`    | Embeds or references executable code (e.g., JS)  |
 | `<style>`     | Embeds CSS styles                                |
 | `<form>`      | Represents a form for user input                 |
-| `<input>`     | Input control within a form                       |
+| `<input>`     | Input control within a form                      |
 | `<button>`    | Clickable button                                 |
-| `<label>`     | Label for an `<input>` element                    |
-| `<fieldset>`  | Groups related elements in a form                 |
-| `<legend>`    | Caption for a `<fieldset>`                        |
+| `<label>`     | Label for an `<input>` element                   |
+| `<fieldset>`  | Groups related elements in a form                |
+| `<legend>`    | Caption for a `<fieldset>`                       |
 | `<figure>`    | Self-contained content, like images with captions|
-| `<figcaption>`| Caption for a `<figure>`                          |
-| `<audio>`     | Embeds sound content                              |
-| `<video>`     | Embeds video content                              |
-| `<source>`    | Specifies multiple media resources for `<audio>` or `<video>` |
-| `<iframe>`    | Embeds another HTML page within the current page  |
-| `<code>`       | Represents a fragment of computer code            |
-| `<pre>`       | Represents preformatted text                      |
-| `<blockquote>`| Represents a section quoted from another source   |
-| `<cite>`      | Represents the title of a work                    |
-| `<abbr>`      | Represents an abbreviation or acronym             |
-| `<time>`      | Represents a specific time or date                |
+| `<figcaption>`| Caption for a `<figure>`                         |
+| `<audio>`     | Embeds sound content                             |
+| `<video>`     | Embeds video content                             |
+| `<source>`    | Specifies multiple media resources               |
+|               | for `<audio>` or `<video>`                       |
+| `<iframe>`    | Embeds another HTML page within the current page |
+| `<code>`      | Represents a fragment of computer code           |
+| `<pre>`       | Represents preformatted text                     |
+| `<blockquote>`| Represents a section quoted from another source  |
+| `<cite>`      | Represents the title of a work                   |
+| `<abbr>`      | Represents an abbreviation or acronym            |
+| `<time>`      | Represents a specific time or date               |
 |---------------|--------------------------------------------------|
 
 ## 6.1 Usage Tips for Common Tags as a, img, figure, figcaption and iframe
