@@ -1,28 +1,28 @@
-# HTML & CSS Examples and Exercises
+# HTML & CSS — Examples and Exercises
 
-Short, focused demos and tasks for teaching and learning modern HTML and CSS.
+Short, focused lesson notes (`/docs/modules/*.md`) and hands-on tasks (`/docs/exercises/*`) for modern HTML & CSS.
 
-## Goals
-- Get comfortable with semantic HTML, forms, and media.
-- Master CSS fundamentals: the box model, selectors, and layout.
-- Build responsive components using **Flexbox**, **Grid**, and **Container Queries**.
-- Explore modern CSS: **:has()**, **nesting**, **@layer**, **subgrid**, and custom properties.
+## Start here
+- **Modules (theory):**
+  1. [HTML Structure](docs/modules/01-html-structure.md)
+  2. [Text & Media](docs/modules/02-text-and-media.md)
+  3. [Forms](docs/modules/03-forms.md)
+  4. [Box Model](docs/modules/04-box-model.md)
+  5. [Selectors & Pseudo-classes](docs/modules/05-selectors-and-pseudoclasses.md)
+  6. [Flexbox](docs/modules/06-flexbox.md)
+  7. [Grid](docs/modules/07-grid.md)
+  8. [Responsive & Container Queries](docs/modules/08-responsive-and-container-queries.md)
+  9. [Modern CSS](docs/modules/09-modern-css.md)
 
-## How to use
-1. Open `index.html` and jump to a module or exercise.
-2. Each exercise has a `TASK.md`, a `starter/` and a `solution/`.
-3. Recommended workflow: VS Code + Live Server, or GitHub Pages.
+- **Exercises (practice):**
+  1. [Basic Structure](docs/exercises/01-basic-structure/TASK.md)
+  2. [Card Layout](docs/exercises/02-card-layout/TASK.md)
+  3. [Typography & Theme](docs/exercises/03-typography-theme/TASK.md)
+  4. [Flexbox vs Grid](docs/exercises/04-flexbox-vs-grid/TASK.md)
+  5. [Accessible Form](docs/exercises/05-accessible-form/TASK.md)
+  6. [Container Query Card](docs/exercises/06-container-query-card/TASK.md)
+  7. [Small Landing Page](docs/exercises/07-landing-page/TASK.md)
+  8. [Motion & States](docs/exercises/08-animations/TASK.md)
+  9. [Modern CSS Mashup](docs/exercises/09-modern-mashup/TASK.md)
 
-## Browser support notes
-- `:has()` is now widely supported in modern browsers.  
-- Container queries (`@container`, `container-type`) are broadly supported.  
-- Subgrid is supported across major engines.  
-- Native CSS nesting and cascade layers (`@layer`) are available in modern browsers.
-
-(See **Resources** at the bottom.)
-
-## Folder map
-See the repository tree in this README.
-
-## License
-MIT
+> Notes: GitHub renders this `README.md` automatically and supports **relative links** between files, so students can click through without leaving the repo. :contentReference[oaicite:1]{index=1}
