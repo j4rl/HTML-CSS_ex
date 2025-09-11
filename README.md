@@ -3,7 +3,7 @@ This repository contains educational materials covering the fundamentals of HTML
 ## Contents
 - [HTML Basics](HTML_basics.md)
 - [Text, media and lists](Text_media_lists.md)
-- [Links, Images and Multimedia](Links_images_multimedia.md)
+- [Links, Images and Multimedia](Links_Images_Multimedia.md)
 
 ## Usage of this repository
 You can clone or download this repository to access the materials. Feel free to modify and use the code examples for your learning purposes.
