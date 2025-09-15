@@ -22,3 +22,4 @@ This repository contains educational materials covering the fundamentals of HTML
 You can clone or download this repository to access the materials. Feel free to modify and use the code examples for your learning purposes.
 Use it as a reference while practicing HTML and CSS coding.
 Make sure to acknowledge the source (Charlie Jarl) if you share the materials.
+---
