@@ -5,7 +5,7 @@ This repository contains educational materials covering the fundamentals of HTML
 - [Text, media and lists](text_media_lists.md)
 - [Links, Images and Multimedia](Links_Images_Multimedia.md)
 
-- Forms & Tables
+- [Forms & Tables](forms_tables.md)
 - CSS Basics
 - Box Model, Display & Positioning
 - Flexbox & Grid Layout
