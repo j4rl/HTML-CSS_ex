@@ -5,6 +5,14 @@ This repository contains educational materials covering the fundamentals of HTML
 - [Text, media and lists](text_media_lists.md)
 - [Links, Images and Multimedia](Links_Images_Multimedia.md)
 
+- Forms & Tables
+- CSS Basics
+- Box Model, Display & Positioning
+- Flexbox & Grid Layout
+- Responsive Design & Media Queries
+- Advanced CSS: Transforms, Animations, Filters
+- Performance, Organization & Best Practices
+
 ## Usage of this repository
 You can clone or download this repository to access the materials. Feel free to modify and use the code examples for your learning purposes.
 Use it as a reference while practicing HTML and CSS coding.
