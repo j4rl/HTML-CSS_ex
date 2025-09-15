@@ -5,13 +5,15 @@ This repository contains educational materials covering the fundamentals of HTML
 - [Text, media and lists](text_media_lists.md)
 - [Links, Images and Multimedia](Links_Images_Multimedia.md)
 
-- Forms & Tables
-- CSS Basics
-- Box Model, Display & Positioning
-- Flexbox & Grid Layout
-- Responsive Design & Media Queries
-- Advanced CSS: Transforms, Animations, Filters
-- Performance, Organization & Best Practices
+- [Forms & Tables](forms_tables.md)
+- [CSS Basics](css_basics.md)
+- [Box Model, Display & Positioning](box_model_display_positioning.md)
+- [Flexbox & Grid Layout](flexbox_grid_layout.md)
+- [Responsive Design & Media Queries](responsive_design_media_queries.md)
+- [Advanced CSS: Transforms, Animations, Filters](advanced_css_transforms_animations_filters.md)
+- [Performance, Organization & Best Practices](performance_organization_best_practices.md)
+- [ARIA & Accessibility](aria_accessibility.md)
+- [SEO Basics](seo_basics.md)
 
 ## Usage of this repository
 You can clone or download this repository to access the materials. Feel free to modify and use the code examples for your learning purposes.
