@@ -15,6 +15,9 @@ This repository contains educational materials covering the fundamentals of HTML
 - [ARIA & Accessibility](aria_accessibility.md)
 - [SEO Basics](seo_basics.md)
 
+- [Simple exercises](simple_exercises.md)
+- [Project Ideas](project_ideas.md)
+
 ## Usage of this repository
 You can clone or download this repository to access the materials. Feel free to modify and use the code examples for your learning purposes.
 Use it as a reference while practicing HTML and CSS coding.
