@@ -73,12 +73,14 @@ Tables display tabular data using rows and columns.
   </thead>
   <tbody>
     <tr>
-      <td>Row 1, Cell 1</td>
-      <td>Row 1, Cell 2</td>
+      <td>January</td>
+      <td>$10,000</td>
+      <td>+5%</td>
     </tr>
     <tr>
-      <td>Row 2, Cell 1</td>
-      <td>Row 2, Cell 2</td>
+      <td>February</td>
+      <td>$12,000</td>
+      <td>+20%</td>
     </tr>
   </tbody>
 </table>
