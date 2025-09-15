@@ -14,6 +14,7 @@ This repository contains educational materials covering the fundamentals of HTML
 - [Performance, Organization & Best Practices](performance_organization_best_practices.md)
 - [ARIA & Accessibility](aria_accessibility.md)
 - [SEO Basics](seo_basics.md)
+- [Interface Design Principles](interface_design_principles.md)
 
 - [Simple exercises](simple_exercises.md)
 - [Project Ideas](project_ideas.md)
