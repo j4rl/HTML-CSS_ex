@@ -42,6 +42,7 @@ Forms are used to collect user input. The `<form>` element wraps input controls 
 - `readonly`: Makes the input read-only.
 - `value`: Default value of the input.
 - `maxlength`: Maximum number of characters allowed.
+- `minlength`: Minimum number of characters allowed.
 - `min` and `max`: Minimum and maximum values for numeric inputs.
 - `step`: Increment step for numeric inputs.
 - `pattern`: Regex pattern for validation. 
