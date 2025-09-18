@@ -2,8 +2,8 @@
 This repository contains educational materials covering the fundamentals of HTML and CSS, essential for web development. It includes explanations, code examples, and best practices to help beginners get started with creating and styling web pages.
 ## Contents
 - [HTML Basics](docs/HTML_basics.md)
-- [Text, media and lists](docs/text_media_lists.md)
-- [Links, Images and Multimedia](docs/Links_Images_Multimedia.md)
+- [Text, media and lists](docs/Text_media_lists.md)
+- [Links, Images and Multimedia](docs/Links_images_multimedia.md)
 
 - [Forms & Tables](docs/forms_tables.md)
 - [CSS Basics](docs/css_basics.md)
@@ -23,4 +23,3 @@ This repository contains educational materials covering the fundamentals of HTML
 You can clone or download this repository to access the materials. Feel free to modify and use the code examples for your learning purposes.
 Use it as a reference while practicing HTML and CSS coding.
 Make sure to acknowledge the source (Charlie Jarl) if you share the materials.
----
