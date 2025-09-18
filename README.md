@@ -7,6 +7,7 @@ This repository contains educational materials covering the fundamentals of HTML
 
 - [Forms & Tables](docs/forms_tables.md)
 - [CSS Basics](docs/css_basics.md)
+- [CSS Units](docs/css_units.md)
 - [Box Model, Display & Positioning](docs/box_model_display_positioning.md)
 - [Flexbox & Grid Layout](docs/flexbox_grid_layout.md)
 - [Responsive Design & Media Queries](docs/responsive_design_media_queries.md)
