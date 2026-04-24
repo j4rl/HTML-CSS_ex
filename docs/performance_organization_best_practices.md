@@ -1,11 +1,15 @@
 # Performance, Organization & Best Practices
-This section covers best practices for writing efficient, maintainable, and high-performance HTML and CSS code. It includes tips on optimizing loading times, organizing stylesheets, and ensuring accessibility.   
+
+This section covers best practices for writing efficient, maintainable, and high-performance HTML and CSS code. It includes tips on optimizing loading times, organizing stylesheets, and ensuring accessibility.
 How to plan and structure your HTML and CSS for better performance and maintainability is also discussed.
+
 ## Performance Optimization
+
 - Minimize HTTP requests by combining CSS files and using CSS sprites for images.
 - Use external stylesheets to leverage browser caching.
 - Minify CSS files to reduce file size.
-- Use shorthand properties in CSS to reduce code size.  
+- Use shorthand properties in CSS to reduce code size.
+
 ```css
 /* Shorthand example */
 margin: 10px 15px 20px 25px; /* top right bottom left */
@@ -15,11 +19,13 @@ margin-right: 15px;
 margin-bottom: 20px;
 margin-left: 25px;
 ```
+
 - Load CSS in the `<head>` to prevent rendering delays.
 - Use media queries to load styles only for specific devices or screen sizes.
 - Avoid using `@import` in CSS as it can delay loading.
-- Optimize images and use modern formats like WebP. 
+- Optimize images and use modern formats like WebP.
 - Use `font-display: swap;` for web fonts to improve text visibility during font loading.
+
 ```css
 @font-face {
   font-family: 'MyFont';
@@ -27,8 +33,10 @@ margin-left: 25px;
   font-display: swap;
 }
 ```
+
 - Limit the use of complex selectors and deep nesting in CSS to improve rendering performance.
 - Use CSS variables for repeated values to reduce redundancy and improve maintainability.
+
 ```css
 :root {
   --main-bg-color: #f0f0f0;
@@ -39,9 +47,12 @@ body {
   color: var(--main-text-color);
 }
 ```
+
 ## Organization and Maintainability
+
 - Use a consistent naming convention for classes and IDs (e.g., BEM - Block Element Modifier).
   - Example of BEM:
+
 ```html
 <div class="card">
     <h2 class="card__title">Title</h2>
@@ -49,8 +60,10 @@ body {
     <button class="card__button card__button--primary">Click Me</button>
 </div>
 ```
-  - Example of another convention (kebab-case):
-```html 
+
+- Example of another convention (kebab-case):
+
+```html
 <div class="nav-bar">
     <ul class="nav-bar__list">
         <li class="nav-bar__item"><a href="#" class="nav-bar__link">Home</a></li>
@@ -58,7 +71,9 @@ body {
     </ul>
 </div>
 ```
-  -Example of camelCase:
+
+- Example of camelCase:
+
 ```html
 <div class="navBar">
     <ul class="navBarList">
@@ -67,39 +82,47 @@ body {
     </ul>
 </div>
 ```
+
 - Separate layout styles from component styles in CSS files.
 - Use comments in CSS to explain sections and complex rules.
+
 ```css
 /* Layout styles */
 .container {
   display: flex;
   flex-direction: column;
 }
+
 /* Component styles */
 .button {
-    background-color: blue;
-    color: white;
-    }
-    ``` 
+  background-color: blue;
+  color: white;
+}
+```
+
 - Group related CSS rules together.
 - Use a CSS preprocessor (like SASS or LESS) for larger projects to enable nesting, variables, and mixins.
 - Regularly audit and clean up unused CSS rules.
 - Use a CSS linter to enforce coding standards and catch errors.
 - Document your CSS architecture and conventions for team projects.
+
 ## Accessibility Best Practices
+
 - Use semantic HTML elements (e.g., `<header>`, `<nav>`, `<main>`, `<footer>`, `<article>`, `<section>`) to improve accessibility and SEO.
-- Ensure sufficient color contrast between text and background. 
+- Ensure sufficient color contrast between text and background.
 - Use relative units (like `em`, `rem`, `%`) for font sizes to improve scalability.
 - Provide `alt` attributes for images to describe their content.
 - Use ARIA roles and properties to enhance accessibility for dynamic content.
-- Ensure that interactive elements (like buttons and links) are keyboard accessible.    
+- Ensure that interactive elements (like buttons and links) are keyboard accessible.
 - Use focus styles to indicate which element is focused when navigating via keyboard.
+
 ```css
 button:focus, a:focus {
   outline: 2px solid blue;
   outline-offset: 2px;
 }
 ```
+
 - Test your site with screen readers and other assistive technologies.
 - Use tools like Lighthouse, Axe, or WAVE to audit accessibility.
   - Links to tools:
@@ -108,6 +131,7 @@ button:focus, a:focus {
     - [WAVE](https://wave.webaim.org/)
 
 ## General Best Practices
+
 - Keep CSS files modular and organized by feature or component.
 - Avoid inline styles; use classes and IDs instead.
 - Use a version control system (like Git) to manage changes and collaborate with others.

@@ -2,9 +2,9 @@
 
 ## What is HTML
 
-- HTML (HyperText Markup Language) is the standard language for creating web pages. It provides the *structure* of a page.   
-- An HTML document is made of nested elements (tags), attributes, and content.   
-- The `<!DOCTYPE html>` declaration at the top informs the browser to render using HTML5 standard. 
+- HTML (HyperText Markup Language) is the standard language for creating web pages. It provides the *structure* of a page.
+- An HTML document is made of nested elements (tags), attributes, and content.
+- The `<!DOCTYPE html>` declaration at the top tells the browser to render the page using the HTML5 standard.
 
 ## Essential Document Structure
 
@@ -32,8 +32,10 @@
 | `<p>`         | Paragraph (text block).                                        |
 
 ## Best Practices
-- Always use lang="en" (or whatever language the content is) on <html>.
+
+- Always use `lang="en"` (or the actual content language) on `<html>`.
 - Use lowercase tags. Consistency helps.
 - Close all tags properly. Proper nesting matters.
+- Use semantic elements such as `<header>`, `<nav>`, `<main>`, `<section>`, `<article>`, and `<footer>` when they describe the content.
 - Comments: `<!-- comment -->` to explain complex sections.
 - Validate HTML (e.g. W3C validator) to catch mistakes.
